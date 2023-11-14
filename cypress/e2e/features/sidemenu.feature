@@ -15,7 +15,7 @@ Feature: Sidemenu
     Given the user open sidemenu
     Then the sidemenu should be opened
 
-  Scenario: Open sidemenu
+  Scenario: Close sidemenu
     Given the user open sidemenu
     When the user closes sidemenu
     Then the sidemenu should be closed
